@@ -1,0 +1,83 @@
+[
+  {
+    "model": "Baseline_A_Lexical",
+    "total_time_sec": 0.13,
+    "throughput_items_per_sec": 1245.96,
+    "latency_mean_ms": 0.8,
+    "latency_median_ms": 0.71,
+    "latency_p95_ms": 1.59,
+    "memory_usage_mb": 3152.42
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "total_time_sec": 1.56,
+    "throughput_items_per_sec": 107.78,
+    "latency_mean_ms": 9.27,
+    "latency_median_ms": 1.29,
+    "latency_p95_ms": 12.19,
+    "memory_usage_mb": 3153.46
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "total_time_sec": 252.24,
+    "throughput_items_per_sec": 0.67,
+    "latency_mean_ms": 1501.43,
+    "latency_median_ms": 1298.91,
+    "latency_p95_ms": 4361.19,
+    "memory_usage_mb": 3153.47
+  },
+  {
+    "model": "Method_C_Laya_Embed_Multi",
+    "total_time_sec": 170.17,
+    "throughput_items_per_sec": 0.99,
+    "latency_mean_ms": 1012.89,
+    "latency_median_ms": 939.93,
+    "latency_p95_ms": 2173.1,
+    "memory_usage_mb": 2749.48
+  },
+  {
+    "model": "Method_D_Laya_Router_English",
+    "total_time_sec": 247.82,
+    "throughput_items_per_sec": 0.68,
+    "latency_mean_ms": 1475.09,
+    "latency_median_ms": 1505.51,
+    "latency_p95_ms": 1727.29,
+    "memory_usage_mb": 3776.95
+  },
+  {
+    "model": "Method_D_Laya_Router_Multi",
+    "total_time_sec": 134.16,
+    "throughput_items_per_sec": 1.25,
+    "latency_mean_ms": 798.54,
+    "latency_median_ms": 802.04,
+    "latency_p95_ms": 1019.34,
+    "memory_usage_mb": 4000.71
+  },
+  {
+    "model": "Method_E1_Hybrid_Rerank",
+    "total_time_sec": 0.05,
+    "throughput_items_per_sec": 3723.07,
+    "latency_mean_ms": 0.27,
+    "latency_median_ms": 0.24,
+    "latency_p95_ms": 0.56,
+    "memory_usage_mb": 4000.74
+  },
+  {
+    "model": "Method_E2_Hybrid_Blend",
+    "total_time_sec": 0.16,
+    "throughput_items_per_sec": 1054.78,
+    "latency_mean_ms": 0.95,
+    "latency_median_ms": 0.87,
+    "latency_p95_ms": 1.84,
+    "memory_usage_mb": 4000.74
+  },
+  {
+    "model": "Method_E3_Hybrid_Gated",
+    "total_time_sec": 82.96,
+    "throughput_items_per_sec": 2.03,
+    "latency_mean_ms": 493.79,
+    "latency_median_ms": 0.3,
+    "latency_p95_ms": 1659.66,
+    "memory_usage_mb": 4000.75
+  }
+]

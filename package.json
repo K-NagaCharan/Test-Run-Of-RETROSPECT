@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@babel/parser": "^7.29.9",
+    "typescript": "^7.0.2"
+  }
+}

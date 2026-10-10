@@ -1,0 +1,686 @@
+[
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_7__onDataUnshift",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.5855714285714286,
+    "scores": {
+      "cand_0": 0.5855714285714286,
+      "cand_1": 0.28809523809523807,
+      "cand_2": 0.32922077922077925
+    },
+    "target_name": "_onDataUnshift",
+    "target_snippet": "_onDataUnshift() {\n    this._sync(['_insertElements', 0, arguments.length]);\n  }\n}"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "python_dit_new_func_4_get_base",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.45462184873949585,
+    "scores": {
+      "cand_0": 0.45462184873949585,
+      "cand_1": 0.27954545454545454,
+      "cand_2": 0.43157894736842106
+    },
+    "target_name": "get_base",
+    "target_snippet": "def get_base(self, numerical=False):\n        \"\"\"\n        Returns the base in which operations take place.\n\n        For linear-based operations, the result is 'linear'.\n\n        Parameters\n        ----"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_redux_779f3a3_normalizeRouteBasePath_body_modification",
+    "language": "typescript",
+    "change_type": "body_modification",
+    "error_type": "False_NEW",
+    "ground_truth": "cand_0",
+    "prediction": "NEW",
+    "confidence": 0.05,
+    "scores": {
+      "cand_0": 0.05,
+      "cand_1": 0.05,
+      "cand_2": 0.05,
+      "cand_3": 0.05
+    },
+    "target_name": "normalizeRouteBasePath",
+    "target_snippet": "export function normalizeRouteBasePath(routeBasePath: string): string {\n  const trimmed = routeBasePath.replace(/^\\/+|\\/+$/g, '')\n  return trimmed === '' ? '/' : `/${trimmed}/`\n}\n\nconst EMPTY: readonl"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "python_dit_new_func_9___init__",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.525,
+    "scores": {
+      "cand_0": 0.22424242424242424,
+      "cand_1": 0.25484949832775916,
+      "cand_2": 0.525
+    },
+    "target_name": "__init__",
+    "target_snippet": "def __init__(self, msg=''):\n        \"\"\"Initializes the decorator.\n\n        Parameters\n        ----------\n        msg : str\n            A string that is added to the deprecation warning.\n\n        \"\"\"\n "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_9__notify",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.4716666666666667,
+    "scores": {
+      "cand_0": 0.4716666666666667,
+      "cand_1": 0.008695652173913044,
+      "cand_2": 0.44166666666666665
+    },
+    "target_name": "_notify",
+    "target_snippet": "_notify(descriptors, chart, hook, args) {\n    args = args || {};\n    for (const descriptor of descriptors) {\n      const plugin = descriptor.plugin;\n      const method = plugin[hook];\n      const para"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_0_reselectComponentAliases",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 1.0,
+      "cand_1": 1.0,
+      "cand_2": 1.0
+    },
+    "target_name": "reselectComponentAliases",
+    "target_snippet": "function reselectComponentAliases() {\n      const components = resolve(\n        __dirname,\n        'external/reselect/website/src/components'\n      )\n      const aliases = Object.fromEntries(\n        "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_2_fit",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.45476190476190476,
+    "scores": {
+      "cand_0": 0.45476190476190476,
+      "cand_1": 0.45454545454545453,
+      "cand_2": 0.3276223776223776
+    },
+    "target_name": "fit",
+    "target_snippet": "fit() {\n    // Reset\n    const minSize = {\n      width: 0,\n      height: 0\n    };\n\n    const {chart, options: {ticks: tickOpts, title: titleOpts, grid: gridOpts}} = this;\n    const display = this._isV"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_7_libraryEditUrl",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 1.0,
+      "cand_1": 1.0,
+      "cand_2": 1.0
+    },
+    "target_name": "libraryEditUrl",
+    "target_snippet": "function libraryEditUrl(repo: string) {\n  const ref =\n    process.env[`DOCS_REF_${repo.toUpperCase().replaceAll('-', '_')}`] ??\n    'master'\n  return ({ docPath }: { docPath: string }) =>\n    `https:/"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_6__tickSize",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.7882352941176469,
+    "scores": {
+      "cand_0": 0.4726086956521739,
+      "cand_1": 0.4661172161172161,
+      "cand_2": 0.7882352941176469
+    },
+    "target_name": "_tickSize",
+    "target_snippet": "_tickSize() {\n    const optionTicks = this.options.ticks;\n\n    // Calculate space needed by label in axis direction.\n    const rot = toRadians(this.labelRotation);\n    const cos = Math.abs(Math.cos(ro"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_3_drawArc",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 1.0,
+      "cand_1": 1.0,
+      "cand_2": 1.0
+    },
+    "target_name": "drawArc",
+    "target_snippet": "function drawArc(\n  ctx: CanvasRenderingContext2D,\n  element: ArcElement,\n  offset: number,\n  spacing: number,\n  circular: boolean,\n) {\n  const {fullCircles, startAngle, circumference} = element;\n  le"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_1_getValueForPixel",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.5384910485933503,
+    "scores": {
+      "cand_0": 0.4746376811594203,
+      "cand_1": 0.5384910485933503,
+      "cand_2": 0.42391304347826086
+    },
+    "target_name": "getValueForPixel",
+    "target_snippet": "getValueForPixel(pixel) {} // eslint-disable-line no-unused-vars\n\n  /**\n\t * Returns the location of the tick at the given index\n\t * The coordinate (0, 0) is at the upper-left corner of the canvas\n\t * "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_2_reselectComponentAliases",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 1.0,
+      "cand_1": 0.1,
+      "cand_2": 1.0
+    },
+    "target_name": "reselectComponentAliases",
+    "target_snippet": "function reselectComponentAliases() {\n      const components = resolve(\n        __dirname,\n        'external/reselect/website/src/components'\n      )\n      const aliases = Object.fromEntries(\n        "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_5_convertObjectDataToArray",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.49444444444444446,
+    "scores": {
+      "cand_0": 0.49130434782608695,
+      "cand_1": 0.4875,
+      "cand_2": 0.49444444444444446
+    },
+    "target_name": "convertObjectDataToArray",
+    "target_snippet": "function convertObjectDataToArray(data, meta) {\n  const {iScale, vScale} = meta;\n  const iAxisKey = iScale.axis === 'x' ? 'x' : 'y';\n  const vAxisKey = vScale.axis === 'x' ? 'x' : 'y';\n  const keys = "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_4_toolkitTypesDependency",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 1.0,
+      "cand_1": 1.0,
+      "cand_2": 0.1
+    },
+    "target_name": "toolkitTypesDependency",
+    "target_snippet": "function toolkitTypesDependency() {\n      const linkedDist = resolve(\n        __dirname,\n        'external/redux-toolkit/packages/toolkit/dist'\n      )\n      const typesDir = existsSync(linkedDist)\n  "
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "typescript_new_func_5__isDomSupported",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 1.0,
+    "scores": {
+      "cand_0": 0.015384615384615385,
+      "cand_1": 1.0,
+      "cand_2": 1.0
+    },
+    "target_name": "_isDomSupported",
+    "target_snippet": "export function _isDomSupported(): boolean {\n  return typeof window !== 'undefined' && typeof document !== 'undefined';\n}\n\n/**\n * @private\n */\nexport function _getParentNode(domNode: HTMLCanvasElement"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "python_dit_new_func_1___contains__",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.5875,
+    "scores": {
+      "cand_0": 0.23505747126436782,
+      "cand_1": 0.5541666666666667,
+      "cand_2": 0.5875
+    },
+    "target_name": "__contains__",
+    "target_snippet": "def __contains__(self, outcome):\n        \"\"\"\n        Returns `True` if `outcome` is in self.outcomes.\n\n        Note, the outcome could correspond to a null-outcome. Also, if\n        `outcome` is not i"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "python_dit_new_func_7_normalize",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.4214285714285715,
+    "scores": {
+      "cand_0": 0.4214285714285715,
+      "cand_1": 0.34806547619047623,
+      "cand_2": 0.3434873949579832
+    },
+    "target_name": "normalize",
+    "target_snippet": "def normalize(self):\n        \"\"\"\n        Normalize the distribution, in-place.\n\n        Returns\n        -------\n        z : float\n            The previous normalization constant.  This will be negativ"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "java_commons-io_6a1bb4d_copy_new",
+    "language": "java",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.4785714285714286,
+    "scores": {
+      "cand_0": 0.28541666666666665,
+      "cand_1": 0.1587853323147441,
+      "cand_2": 0.4785714285714286
+    },
+    "target_name": "copy",
+    "target_snippet": "public static void copy(final byte[] input, final OutputStream output)\n        throws IOException {\n        copy(input, output, DEFAULT_BUFFER_SIZE);\n    }"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_4_getMinMax",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.603921568627451,
+    "scores": {
+      "cand_0": 0.535054347826087,
+      "cand_1": 0.603921568627451,
+      "cand_2": 0.48333333333333334
+    },
+    "target_name": "getMinMax",
+    "target_snippet": "getMinMax(scale, canStack) {\n    const meta = this._cachedMeta;\n    const _parsed = meta._parsed;\n    const sorted = meta._sorted && scale === meta.iScale;\n    const ilen = _parsed.length;\n    const o"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "java_commons-io_c360a10_flush_new",
+    "language": "java",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.6475,
+    "scores": {
+      "cand_0": 0.21619047619047616,
+      "cand_1": 0.6475,
+      "cand_2": 0.28937500000000005
+    },
+    "target_name": "flush",
+    "target_snippet": "public void flush()\n        throws IOException\n    {\n        final OutputStream output = getStream();\n        if( null != output )\n        {\n            output.flush();\n        }\n    }"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "javascript_new_func_3__setStyle",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.5742424242424242,
+    "scores": {
+      "cand_0": 0.5045454545454545,
+      "cand_1": 0.5742424242424242,
+      "cand_2": 0.4909090909090909
+    },
+    "target_name": "_setStyle",
+    "target_snippet": "_setStyle(element, index, mode, active) {\n    element.active = active;\n    const options = this.getStyle(index, active);\n    this._resolveAnimations(index, mode, active).update(element, {\n      // Whe"
+  },
+  {
+    "model": "Baseline_B_Structural",
+    "instance_id": "python_dit_new_func_6_set_rv_names",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.4101754385964912,
+    "scores": {
+      "cand_0": 0.4101754385964912,
+      "cand_1": 0.35865384615384616,
+      "cand_2": 0.4046404682274248
+    },
+    "target_name": "set_rv_names",
+    "target_snippet": "def set_rv_names(self, rv_names):\n        \"\"\"\n        Sets the names of the random variables.\n\n        Returns\n        -------\n        rv_names : tuple\n            A tuple with length equal to the out"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_7__onDataUnshift",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.9541280269622803,
+    "scores": {
+      "cand_0": 0.936996579170227,
+      "cand_1": 0.9483528137207031,
+      "cand_2": 0.9541280269622803
+    },
+    "target_name": "_onDataUnshift",
+    "target_snippet": "_onDataUnshift() {\n    this._sync(['_insertElements', 0, arguments.length]);\n  }\n}"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_redux_4fabc71_escapeRegex_body_modification",
+    "language": "typescript",
+    "change_type": "body_modification",
+    "error_type": "Mismatched_Predecessor",
+    "ground_truth": "cand_0",
+    "prediction": "cand_3",
+    "confidence": 0.9909808039665222,
+    "scores": {
+      "cand_0": 0.9905988574028015,
+      "cand_1": 0.9158935546875,
+      "cand_2": 0.9837003946304321,
+      "cand_3": 0.9909808039665222
+    },
+    "target_name": "escapeRegex",
+    "target_snippet": "function escapeRegex(value: string): string {\n  return value.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')\n}\n\n/**\n * Navbar dropdown that lists every docs instance and shows which one the\n * current page bel"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "python_dit_new_func_4_get_base",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.9660427570343018,
+    "scores": {
+      "cand_0": 0.9589577317237854,
+      "cand_1": 0.9660427570343018,
+      "cand_2": 0.9080194234848022
+    },
+    "target_name": "get_base",
+    "target_snippet": "def get_base(self, numerical=False):\n        \"\"\"\n        Returns the base in which operations take place.\n\n        For linear-based operations, the result is 'linear'.\n\n        Parameters\n        ----"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_redux_779f3a3_normalizeRouteBasePath_body_modification",
+    "language": "typescript",
+    "change_type": "body_modification",
+    "error_type": "Mismatched_Predecessor",
+    "ground_truth": "cand_0",
+    "prediction": "cand_3",
+    "confidence": 0.9761725068092346,
+    "scores": {
+      "cand_0": 0.9647274017333984,
+      "cand_1": 0.9664128422737122,
+      "cand_2": 0.9685892462730408,
+      "cand_3": 0.9761725068092346
+    },
+    "target_name": "normalizeRouteBasePath",
+    "target_snippet": "export function normalizeRouteBasePath(routeBasePath: string): string {\n  const trimmed = routeBasePath.replace(/^\\/+|\\/+$/g, '')\n  return trimmed === '' ? '/' : `/${trimmed}/`\n}\n\nconst EMPTY: readonl"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "python_dit_new_func_9___init__",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.9586433172225952,
+    "scores": {
+      "cand_0": 0.9168524146080017,
+      "cand_1": 0.932172954082489,
+      "cand_2": 0.9586433172225952
+    },
+    "target_name": "__init__",
+    "target_snippet": "def __init__(self, msg=''):\n        \"\"\"Initializes the decorator.\n\n        Parameters\n        ----------\n        msg : str\n            A string that is added to the deprecation warning.\n\n        \"\"\"\n "
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_9__notify",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.9768165349960327,
+    "scores": {
+      "cand_0": 0.9573522210121155,
+      "cand_1": 0.9768165349960327,
+      "cand_2": 0.9703975915908813
+    },
+    "target_name": "_notify",
+    "target_snippet": "_notify(descriptors, chart, hook, args) {\n    args = args || {};\n    for (const descriptor of descriptors) {\n      const plugin = descriptor.plugin;\n      const method = plugin[hook];\n      const para"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_new_func_0_reselectComponentAliases",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.979671061038971,
+    "scores": {
+      "cand_0": 0.9417438507080078,
+      "cand_1": 0.979671061038971,
+      "cand_2": 0.9453373551368713
+    },
+    "target_name": "reselectComponentAliases",
+    "target_snippet": "function reselectComponentAliases() {\n      const components = resolve(\n        __dirname,\n        'external/reselect/website/src/components'\n      )\n      const aliases = Object.fromEntries(\n        "
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_2_fit",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.9700842499732971,
+    "scores": {
+      "cand_0": 0.9700842499732971,
+      "cand_1": 0.9608975648880005,
+      "cand_2": 0.9433174729347229
+    },
+    "target_name": "fit",
+    "target_snippet": "fit() {\n    // Reset\n    const minSize = {\n      width: 0,\n      height: 0\n    };\n\n    const {chart, options: {ticks: tickOpts, title: titleOpts, grid: gridOpts}} = this;\n    const display = this._isV"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_new_func_7_libraryEditUrl",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.9674564003944397,
+    "scores": {
+      "cand_0": 0.9403570294380188,
+      "cand_1": 0.9674564003944397,
+      "cand_2": 0.9282956123352051
+    },
+    "target_name": "libraryEditUrl",
+    "target_snippet": "function libraryEditUrl(repo: string) {\n  const ref =\n    process.env[`DOCS_REF_${repo.toUpperCase().replaceAll('-', '_')}`] ??\n    'master'\n  return ({ docPath }: { docPath: string }) =>\n    `https:/"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "python_dit_new_func_2_test_downsample_badmethod",
+    "language": "python",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_1",
+    "confidence": 0.9611084461212158,
+    "scores": {
+      "cand_0": 0.8913981318473816,
+      "cand_1": 0.9611084461212158,
+      "cand_2": 0.9359775185585022
+    },
+    "target_name": "test_downsample_badmethod",
+    "target_snippet": "def test_downsample_badmethod():\n    d1 = np.array([0, .51, .49])\n    assert_raises(\n        NotImplementedError, module.downsample, d1, 3, method='whatever'\n    )"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_6__tickSize",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.9787759780883789,
+    "scores": {
+      "cand_0": 0.9773416519165039,
+      "cand_1": 0.9488650560379028,
+      "cand_2": 0.9787759780883789
+    },
+    "target_name": "_tickSize",
+    "target_snippet": "_tickSize() {\n    const optionTicks = this.options.ticks;\n\n    // Calculate space needed by label in axis direction.\n    const rot = toRadians(this.labelRotation);\n    const cos = Math.abs(Math.cos(ro"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_new_func_3_drawArc",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.9699538946151733,
+    "scores": {
+      "cand_0": 0.9413260221481323,
+      "cand_1": 0.9475988745689392,
+      "cand_2": 0.9699538946151733
+    },
+    "target_name": "drawArc",
+    "target_snippet": "function drawArc(\n  ctx: CanvasRenderingContext2D,\n  element: ArcElement,\n  offset: number,\n  spacing: number,\n  circular: boolean,\n) {\n  const {fullCircles, startAngle, circumference} = element;\n  le"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "java_commons-io_81eef5d_createFileEntry_new",
+    "language": "java",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.9585596323013306,
+    "scores": {
+      "cand_0": 0.9585596323013306,
+      "cand_1": 0.9337176084518433,
+      "cand_2": 0.9251492023468018
+    },
+    "target_name": "createFileEntry",
+    "target_snippet": "private FilesystemEntry createFileEntry(FilesystemEntry parent, File file) {\n        FilesystemEntry entry = parent.newChildInstance(file);\n        entry.refresh();\n        File[] files = listFiles(fi"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_1_getValueForPixel",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.9689278602600098,
+    "scores": {
+      "cand_0": 0.9689278602600098,
+      "cand_1": 0.9683452248573303,
+      "cand_2": 0.968380868434906
+    },
+    "target_name": "getValueForPixel",
+    "target_snippet": "getValueForPixel(pixel) {} // eslint-disable-line no-unused-vars\n\n  /**\n\t * Returns the location of the tick at the given index\n\t * The coordinate (0, 0) is at the upper-left corner of the canvas\n\t * "
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_new_func_2_reselectComponentAliases",
+    "language": "typescript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_2",
+    "confidence": 0.9541487693786621,
+    "scores": {
+      "cand_0": 0.9525344371795654,
+      "cand_1": 0.9376356601715088,
+      "cand_2": 0.9541487693786621
+    },
+    "target_name": "reselectComponentAliases",
+    "target_snippet": "function reselectComponentAliases() {\n      const components = resolve(\n        __dirname,\n        'external/reselect/website/src/components'\n      )\n      const aliases = Object.fromEntries(\n        "
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "javascript_new_func_5_convertObjectDataToArray",
+    "language": "javascript",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.9727402329444885,
+    "scores": {
+      "cand_0": 0.9727402329444885,
+      "cand_1": 0.9531777501106262,
+      "cand_2": 0.9664895534515381
+    },
+    "target_name": "convertObjectDataToArray",
+    "target_snippet": "function convertObjectDataToArray(data, meta) {\n  const {iScale, vScale} = meta;\n  const iAxisKey = iScale.axis === 'x' ? 'x' : 'y';\n  const vAxisKey = vScale.axis === 'x' ? 'x' : 'y';\n  const keys = "
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "java_commons-io_61b41ee_toInputStream_new",
+    "language": "java",
+    "change_type": "new",
+    "error_type": "Missed_NEW",
+    "ground_truth": "NEW",
+    "prediction": "cand_0",
+    "confidence": 0.9419076442718506,
+    "scores": {
+      "cand_0": 0.9419076442718506,
+      "cand_1": 0.913103461265564,
+      "cand_2": 0.9405689835548401
+    },
+    "target_name": "toInputStream",
+    "target_snippet": "public static InputStream toInputStream(CharSequence input) {\n        return toInputStream(input.toString());\n    }"
+  },
+  {
+    "model": "Method_C_Laya_Embed_English",
+    "instance_id": "typescript_redux_5032fb0_flatMap_body_modification",
+    "language": "typescript",
+    "change_type": "body_modification",
+    "error_type": "Mismatched_Predecessor",
+    "ground_truth": "cand_0",
+    "prediction": "cand_2",
+    "confidence": 0.9830688238143921,
+    "scores": {
+      "cand_0": 0.9818682670593262,
+      "cand_1": 0.9562601447105408,
+      "cand_2": 0.9830688238143921,
+      "cand_3": 0.950301468372345
+    },
+    "target_name": "flatMap",
+    "target_snippet": "return flatMap(tree, function mapper(node: CodeNode) {\n        if (node.type === 'code') {\n          codeBlock++;\n        }\n        if (!(node.type === 'code' && ['ts', 'tsx'].includes(node.lang))) {\n"
+  }
+]

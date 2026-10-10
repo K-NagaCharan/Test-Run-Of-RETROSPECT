@@ -1,0 +1,10 @@
+model,total_time_sec,throughput_items_per_sec,latency_mean_ms,latency_median_ms,latency_p95_ms,memory_usage_mb
+Baseline_A_Lexical,0.13,1245.96,0.8,0.71,1.59,3152.42
+Baseline_B_Structural,1.56,107.78,9.27,1.29,12.19,3153.46
+Method_C_Laya_Embed_English,252.24,0.67,1501.43,1298.91,4361.19,3153.47
+Method_C_Laya_Embed_Multi,170.17,0.99,1012.89,939.93,2173.1,2749.48
+Method_D_Laya_Router_English,247.82,0.68,1475.09,1505.51,1727.29,3776.95
+Method_D_Laya_Router_Multi,134.16,1.25,798.54,802.04,1019.34,4000.71
+Method_E1_Hybrid_Rerank,0.05,3723.07,0.27,0.24,0.56,4000.74
+Method_E2_Hybrid_Blend,0.16,1054.78,0.95,0.87,1.84,4000.74
+Method_E3_Hybrid_Gated,82.96,2.03,493.79,0.3,1659.66,4000.75
